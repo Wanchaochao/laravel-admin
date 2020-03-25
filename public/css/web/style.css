@@ -1,0 +1,155 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.wd1200 {
+    width: 1200px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+
+}
+.m-t-15 {
+    margin-top: 15px;
+}
+
+.p-t-5 {
+    padding-top: 5px;
+}
+
+.p-t-10 {
+    padding-top: 10px;
+}
+.p-t-15 {
+    padding-top: 15px;
+}
+.p-t-25 {
+    padding-top: 25px;
+}
+
+.index-logo {
+    width: 500px;
+    height: 100px;
+    /*margin-top: 25px;*/
+}
+
+
+.top-search {
+    text-align: right;
+    padding-top: 15px;
+}
+
+.menus {
+    line-height: 75px;
+    float: right;
+}
+
+.menus li{
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.top-menu-btn {
+    font-size: 18px;
+    color: #222;
+    width: 95px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-weight: 450;
+    font-family: '微软雅黑';
+}
+
+.active-btn {
+    color: #fff;
+    background-color: #ffc600;
+    border-radius: 15px;
+}
+
+
+.login-btn {
+    text-align: left;
+    line-height: 35px;
+    text-indent: 1rem;
+}
+#my-banners img{
+    width: 100%;
+}
+#my-banners .layui-carousel-ind ul{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#my-banners .layui-carousel-ind li {
+    width: 90px;
+    height: 7px;
+    border-radius: 0;
+}
+#my-banners .layui-carousel-ind .layui-this {
+    background-color: #ffc600 !important;
+}
+
+.index-news {
+    padding: 10px 10px 10px 0;
+}
+
+.index-news h4{
+    display: inline-block;
+    text-align: left;
+    color: #2e64ae;
+    font-size: 20px;
+    /*width: 90%;*/
+    text-indent: 10px;
+    background: url('../../images/bg04.png') no-repeat 0 7px;
+}
+.index-news-top {
+    width: 450px;
+    padding: 5px 20px 5px 0;
+}
+.index-news-top-right {
+    width: 35px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+    background: url("../../images/img01.png") no-repeat 0 10px;
+}
+#news-banners{
+    width: 450px;
+    height: 175px;
+}
+#news-banners img {
+    width: 450px;
+    height: 175px;
+}
+#news-banners.layui-carousel {
+    background-color: #fff;
+}
+#news-banners>[carousel-item]>* {
+    background-color: #fff !important;
+
+}
+#news-banners .layui-carousel-ind{
+    display: none !important;
+}
+.news-list {
+    width: 450px;
+    list-style-type: disc;
+}
+.news-list li{
+    list-style-type: disc;
+    text-indent: 10px;
+    /*font-size: 14px;*/
+}
